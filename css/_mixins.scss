@@ -1,0 +1,14 @@
+@mixin sidebar-title {
+  color: $colorSidebar;
+  font-size: $fontSizeSidebarTitle;
+  line-height: $lineHeightSidebarTitle;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid $colorSidebar;
+}
+
+@mixin main-position {
+  font-size: $fontSizeExperiencePosition;
+  line-height: $lineHeightExperiencePosition;
+  margin: 0;
+}
