@@ -53,6 +53,11 @@
           color: $colorSidebar;
           cursor: pointer;
         }
+
+        .icon:hover {
+          fill: $colorSidebar;
+          cursor: pointer;
+        }
       }
     }
 

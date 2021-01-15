@@ -10757,6 +10757,10 @@ textarea.form-control-lg {
   color: #DBAE58;
   cursor: pointer;
 }
+.container-custom .sidebar .contacts .contacts__list .icon:hover {
+  fill: #DBAE58;
+  cursor: pointer;
+}
 .container-custom .sidebar .tech-skills .tech-skills__title {
   color: #DBAE58;
   font-size: calc(1.325vw + 10px);
