@@ -77,9 +77,7 @@
           align-items: center;
 
           span {
-            display: block;
-            align-self: center;
-            margin-left: 5px;
+            @include sidebar-skills-items;
           }
         }
       }
@@ -99,9 +97,7 @@
           color: $colorItem;
 
           span {
-            display: block;
-            align-self: center;
-            margin-left: 5px;
+            @include sidebar-skills-items;
           }
         }
       }
@@ -120,9 +116,7 @@
           color: $colorItem;
 
           span {
-            display: block;
-            align-self: center;
-            margin-left: 5px;
+            @include sidebar-skills-items;
           }
         }
       }

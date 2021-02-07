@@ -1,19 +1,25 @@
 @media (min-width: 320px) and (max-width: 576px) {
 
   .container-custom {
+    padding: 0 !important;
 
     .sidebar {
       width: 50% !important;
 
       .icon {
-        fill: green;
-        width: 36px;
-        height: 36px;
+        width: 32px;
+        height: 32px;
       }
 
       .contacts div {
         .contacts__list {
           padding-left: 0;
+          display: flex;
+          justify-content: center;
+
+          .contacts__link {
+            display: none;
+          }
         }
       }
 
@@ -40,29 +46,31 @@
 
       .description {
         .description__description {
-          padding: 15px 0 !important;
+          text-indent: 1rem !important;
+          padding: 5px 10px !important;
         }
       }
 
       .experience {
         .experience__item {
-          padding: 15px 0 !important;
+          padding: 5px 10px !important;
         }
       }
 
       .education {
         .education__item {
-          padding: 15px 0 !important;
+          padding: 5px 10px !important;
         }
       }
 
       .projects {
         .projects__item {
-          padding: 15px 5px !important;
+          padding: 5px 10px !important;
         }
       }
     }
   }
+
 }
 
 @media (min-width: 576.98px) and (max-width: 768px) {
@@ -75,7 +83,6 @@
       .icon {
         width: 32px;
         height: 32px;
-        fill: yellow;
       }
 
       .contacts div {
@@ -107,25 +114,25 @@
 
       .description {
         .description__description {
-          padding: 15px 10px !important;
+          padding: 5px 10px !important;
         }
       }
 
       .experience {
         .experience__item {
-          padding: 15px 10px !important;
+          padding: 5px 10px !important;
         }
       }
 
       .education {
         .education__item {
-          padding: 15px 10px !important;
+          padding: 5px 10px !important;
         }
       }
 
       .projects {
         .projects__item {
-          padding: 15px 10px !important;
+          padding: 5px 10px !important;
         }
       }
     }
@@ -138,11 +145,6 @@
 
     .sidebar {
       width: 45% !important;
-
-      .icon {
-        fill: red;
-      }
-
     }
   }
 }

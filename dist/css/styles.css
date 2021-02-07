@@ -10226,16 +10226,23 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
+  .container-custom {
+    padding: 0 !important;
+  }
   .container-custom .sidebar {
     width: 50% !important;
   }
   .container-custom .sidebar .icon {
-    fill: green;
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
   }
   .container-custom .sidebar .contacts div .contacts__list {
     padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .container-custom .sidebar .contacts div .contacts__list .contacts__link {
+    display: none;
   }
   .container-custom .sidebar .tech-skills div .tech-skills__list {
     padding-left: 0;
@@ -10247,16 +10254,17 @@ fieldset:disabled .btn {
     padding-left: 0;
   }
   .container-custom .main .description .description__description {
-    padding: 15px 0 !important;
+    text-indent: 1rem !important;
+    padding: 5px 10px !important;
   }
   .container-custom .main .experience .experience__item {
-    padding: 15px 0 !important;
+    padding: 5px 10px !important;
   }
   .container-custom .main .education .education__item {
-    padding: 15px 0 !important;
+    padding: 5px 10px !important;
   }
   .container-custom .main .projects .projects__item {
-    padding: 15px 5px !important;
+    padding: 5px 10px !important;
   }
 }
 
@@ -10267,7 +10275,6 @@ fieldset:disabled .btn {
   .container-custom .sidebar .icon {
     width: 32px;
     height: 32px;
-    fill: yellow;
   }
   .container-custom .sidebar .contacts div .contacts__list {
     padding-left: 0;
@@ -10282,25 +10289,22 @@ fieldset:disabled .btn {
     padding-left: 0;
   }
   .container-custom .main .description .description__description {
-    padding: 15px 10px !important;
+    padding: 5px 10px !important;
   }
   .container-custom .main .experience .experience__item {
-    padding: 15px 10px !important;
+    padding: 5px 10px !important;
   }
   .container-custom .main .education .education__item {
-    padding: 15px 10px !important;
+    padding: 5px 10px !important;
   }
   .container-custom .main .projects .projects__item {
-    padding: 15px 10px !important;
+    padding: 5px 10px !important;
   }
 }
 
 @media (min-width: 768.98px) and (max-width: 992px) {
   .container-custom .sidebar {
     width: 45% !important;
-  }
-  .container-custom .sidebar .icon {
-    fill: red;
   }
 }
 
@@ -10382,6 +10386,9 @@ fieldset:disabled .btn {
 }
 
 .container-custom .sidebar .tech-skills .tech-skills__list .tech-skills__item span {
+  font-size: calc(0.55vw + 10px);
+  line-height: calc(1.3vw + 10px);
+  color: #FCFCFA;
   display: block;
   align-self: center;
   margin-left: 5px;
@@ -10406,6 +10413,9 @@ fieldset:disabled .btn {
 }
 
 .container-custom .sidebar .soft-skills .soft-skills__list .soft-skills__item span {
+  font-size: calc(0.55vw + 10px);
+  line-height: calc(1.3vw + 10px);
+  color: #FCFCFA;
   display: block;
   align-self: center;
   margin-left: 5px;
@@ -10430,6 +10440,9 @@ fieldset:disabled .btn {
 }
 
 .container-custom .sidebar .languages .languages__list .languages__item span {
+  font-size: calc(0.55vw + 10px);
+  line-height: calc(1.3vw + 10px);
+  color: #FCFCFA;
   display: block;
   align-self: center;
   margin-left: 5px;
